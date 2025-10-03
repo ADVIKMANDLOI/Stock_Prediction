@@ -1,0 +1,76 @@
+# Stock Prediction using LSTM/GRU
+
+This project is a deep learning-based stock price prediction model built using **TensorFlow/Keras**, **NumPy**, **Pandas**, and **scikit-learn**.
+It leverages recurrent neural networks (LSTM/GRU) to analyze historical stock price data and forecast future trends.
+
+## 🚀 Features
+
+* Preprocesses stock price data (scaling, normalization).
+* Implements LSTM/GRU models with dropout for regularization.
+* Uses callbacks (ReduceLROnPlateau, ModelCheckpoint) for optimized training.
+* Evaluates predictions using **R² Score** and visualization with **Matplotlib**.
+
+## 📂 Project Structure
+
+```
+Stock_Prediction.ipynb   # Jupyter notebook with full implementation
+requirements.txt         # Dependencies
+README.md                # Project documentation
+```
+
+## ⚙️ Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/stock-prediction.git
+   cd stock-prediction
+   ```
+
+2. Create a virtual environment (recommended):
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## ▶️ Usage
+
+1. Open Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+2. Run the notebook:
+
+   ```bash
+   Stock_Prediction.ipynb
+   ```
+
+## 📊 Results
+
+* The model trains on historical stock price data.
+* Predictions are visualized with actual vs. predicted price plots.
+* R² Score is used for performance evaluation.
+
+## 🔮 Future Improvements
+
+* Add attention mechanism for better time series forecasting.
+* Integrate external features (news sentiment, trading volume, etc.).
+* Convert notebook into a Python script/Flask API for deployment.
+
+## 🛠 Requirements
+
+See [requirements.txt](requirements.txt).
+
+## 📜 License
+
+This project is licensed under the MIT License.
